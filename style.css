@@ -335,6 +335,14 @@ footer ul li a:hover {
   background-image: url("./assets/falcon-9.webp");
 }
 
+.bg-falcon-heavy {
+  background-image: url("./assets/falcon-heavy.webp");
+}
+
+.bg-dragon {
+  background-image: url("./assets/dragon.webp");
+}
+
 .section-animate {
   animation: fadeIn 2s ease-in-out;
 }
@@ -346,6 +354,7 @@ footer ul li a:hover {
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-align: center;
+  width: 80%;
 }
 
 .section-inner-center h3 {
@@ -465,10 +474,6 @@ footer ul li a:hover {
   .logo {
     width: 150px;
     margin: auto;
-  }
-
-  .section-inner-center {
-    width: 80%;
   }
 
   .section-inner-center h3 {
